@@ -1,16 +1,15 @@
 
 ## 📌 Project Overview
-This project encompasses company spend behaviour on data from over 500 transactions across 5 supplier.
+This project aims to analyze the company's spending throughout 2024, focusing on identifying monthly spending trends, cost allocation by item category, evaluating supplier performance, and analyzing individual transactions by item. The analysis is intended to support cost-efficiency strategies and inform future budget management decisions.
 
 ## 📊 Data
 * **Source**          : [https://www.kaggle.com/datasets/shahriarkabir/company-purchasing-dataset?select=spend_analysis_dataset.csv](https://www.kaggle.com/datasets/shahriarkabir/company-purchasing-dataset?select=spend_analysis_dataset.csv)<br>
-* **Period**          : 2014-2025<br>
-* **Cleaned Dataset** : [Dataset](https://github.com/nurikarahmadani/Mobile-Data-SQL-Project/blob/main/Cleaned_Dataset.csv)
+* **Period**          : 2024<br>
 
 ## 🎯 Objective
-* Identified trends in mobile phone pricing and technical specifications.
-* Analyzed market segmentation based on price and features.
-* Provided insights for marketing strategies and product development.
+* Analyzing the company's spending patterns throughout 2024 based on purchasing transactions.
+* Identify the largest cost allocations, supplier efficiency, and monthly spending trends
+* Supporting more effective budget management decision-making.
 
 ## 🛠️ Methodology
 * SQL: Data processing and cleansing.
@@ -20,33 +19,17 @@ This project encompasses company spend behaviour on data from over 500 transacti
 * Data cleansing, data modeling, data visualization, and business analysis.
 
 ## 📈 Findings and Insights
-
-* **Market Dominance** : Apple and Samsung lead the market in terms of the number of mobile phone models released, followed by Xiaomi and Oppo.<br>
-* **Price Segmentation** : Mid-range phones dominate with a market share of 52.9%; High-end (27.7%) and low-end (15%) phones still hold significant market presence; Ultra-premium models account for a small share (4.3%).
-* **Average Pricing** : Overall average price of phones is USD 581.53; Highest price is USD 2,800; and Lowest price is USD 79.
-* **Processor Brand Analysis** : Snapdragon and MediaTek are the most widely used processors; Bionic (Apple) and Exynos (Samsung) dominate the premium segment.
-* **Camera Resolution Trends** : Most common rear cameras: 50 MP and 48 MP; Most dominant front cameras: 32 MP and 16 MP; and High resolutions, such as 108 MP and 200 MP, are generally found in premium phones.
-* **Correlation Insight** : There is a strong correlation between camera specifications and phone prices.
-* **Overall Trends** : Since 2018, there has been a rise in the release of premium phones, driven by advancements in camera and processor specifications.
+* **Total Spend:** $1.24 million USD throughout 2024.
+* **Total Transactions:** 500 transactions.
+* **Suppliers:** 5 active suppliers, with spending distribution relatively balanced (the largest supplier accounting for 22.4% of total transactions).
+* **Item Categories:** 6 item categories, with Electronics contributing 56.25% of total spend.
+* **Top Spending Items:** Laptops (the most expensive among all items), Annual Software Licenses, Monitors
+* **Monthly Spend:** Fluctuated between $60K and $140K per month, with no extreme spikes.
+* **Spending by Category per Month:** Electronics and Software consistently dominated nearly every month.
 
 ## 📊 Report
-[Click here to view the interactive report in Power BI](https://app.powerbi.com/reportEmbed?reportId=cbbe8e76-a0a6-4924-8281-ca0f84beebaf&autoAuth=true&ctid=ba657883-8e76-43e4-8134-c0d580d5fdea)
+[Click here to view the interactive report in Power BI](https://app.powerbi.com/reportEmbed?reportId=694c7285-8bad-4036-870b-93a1cbacbc5e&autoAuth=true&ctid=ba657883-8e76-43e4-8134-c0d580d5fdea)
 
 ## 🔍 Report Preview
-
-**Price Analysis**
-
-![mobile_report_publish_page-0001](https://github.com/user-attachments/assets/de372b43-b012-40e7-ac7a-50bec323acc1)
-
-**Specification Breakdown 1 (Processor)**
-
-![mobile_report_publish_page-0002](https://github.com/user-attachments/assets/19641a82-a3c6-43ba-82a1-358ebfb4bc63)
-
-**Specification Breakdown 2 (Back Camera)**
-
-![mobile_report_publish_page-0003](https://github.com/user-attachments/assets/f3948904-7700-4d72-afea-4c18bf1c134b)
-
-**Specification Breakdown 3 (Front Camera)**
-
-![mobile_report_publish_page-0004](https://github.com/user-attachments/assets/d0e8af00-bd89-46aa-b52f-75f542306cba)
+![company_spending_analysis - Publish_page-0001](https://github.com/user-attachments/assets/4d4f46ec-d46e-4c8b-9f62-e4324fe2dda1)
 
